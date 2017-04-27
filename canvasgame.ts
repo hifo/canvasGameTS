@@ -1,6 +1,14 @@
+// canvasGameTS - a TypeScript library to aid in writing games in HTML5
+
+// Game Constants
 var canvas: HTMLCanvasElement;
 var ctx: CanvasRenderingContext2D;
 
+//Utility Function
+
+//End Util Functions
+
+//gameObject
 class gameObject{
       scale: number;
       image: string;

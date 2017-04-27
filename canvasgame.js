@@ -1,5 +1,10 @@
+// canvasGameTS - a TypeScript library to aid in writing games in HTML5
+// Game Constants
 var canvas;
 var ctx;
+//Utility Function
+//End Util Functions
+//gameObject
 var gameObject = (function () {
     function gameObject(theScale, theImage, theX, theY) {
         this.scale = theScale;
